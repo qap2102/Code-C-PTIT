@@ -1,10 +1,12 @@
-#include <stdio.h>
+#include<bits/stdc++.h>
+using namespace std;
+#define ll long long 
 int main(){
-	int t;
-	scanf ("%d", &t);
-	while (t--){
-	long long n;
-	scanf ("%lld", &n);
-	long long k=n*n;
-	printf ("%lld\n", k);
-}}
+	ll t;
+	cin>>t;
+	while(t--){
+		ll n;
+		cin>>n;
+		cout<<n*n<<endl;
+	}
+}
